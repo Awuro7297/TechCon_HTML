@@ -21,14 +21,19 @@
         <form action="/submit" method="post" >
             <label for="username">name</label>
             <input id="username" type="text">
+
             <label for="useremail">email</label>
             <input id="useremail" type="email">
+
             <label for="userpass">password</label>
-            <input id="userpass" type="password">
+            <input id="userpass" type="password" required>
+
             <label for="passconfirm">comfirm password</label>
-            <input id="passconfirm" type="password">
+            <input id="passconfirm" type="password" required>
+            
             <label for="terms">Terms and conditions</label>
-            <input id="terms" type="checkbox">
+            <input id="terms" type="checkbox" required>
+
             <button type="submit">
                 Register Now
             </button>
